@@ -19,6 +19,7 @@ main {
   border-right: 1px solid #ccc;
   position: sticky;
   top: 0;
+  height: 100vh;
 
 }
 .side-menu h2 {
@@ -27,6 +28,7 @@ main {
   padding: 10px;
   padding-right: 4rem;
   margin: 0;
+
 }
 ul {
   padding: 0;
@@ -78,6 +80,25 @@ a {
   position: absolute;
   right: 8px;
   top: 8px;
+}
+.copied-msg{
+  position: absolute;
+  right: 0px;
+  top: -45px;
+  background-color: #ccc;
+  padding-inline: 8px;
+  padding-bottom: 4px;
+  border-radius: 10px;
+  font-size: 14px;
+  transition: all 0.1s ease-in-out;
+  opacity: 0;
+
+}
+.code-container .show{
+  opacity: 1;
+}
+.code-container img:actived{
+  display: none;
 }
 @media (width<=768px) {
   .side-menu h2 {
