@@ -52,6 +52,7 @@ a {
 }
 .side-menu ul li:hover {
   background-color: #ccc;
+  transition: 1s;
 }
 .content {
   padding-top: 2rem;
@@ -104,4 +105,6 @@ a {
   .side-menu h2 {
     padding-right: 4px;
   }
+
 }
+
