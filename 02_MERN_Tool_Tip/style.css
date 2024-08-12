@@ -1,3 +1,104 @@
-*{
-    box-sizing: border-box;
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: #191919;
+  font-family: Nunito;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  max-width: 520px;
+  width: 100%;
+  border-radius: 20px;
+  border: 1px solid white;
+  padding-inline: 3rem;
+  padding-top: 5rem;
+  padding-bottom: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+
+  text-align: center;
+
+  
+}
+
+.mongoDB {
+  color: #47a248;
+  position: relative;
+}
+.tool-tip {
+  border-radius: 16px;
+  font-size: 14px;
+  padding: 4px 6px;
+  margin: 0;
+  position: absolute;
+  display: none;
+}
+.mongoDB-tool-tip {
+  color: white;
+  background-color: #47a248;
+  border: 1px solid #47a248;
+
+  top: -50px;
+  left: -24px;
+  display: none;
+  transition: all 0.25s ease-in-out;
+}
+.mongoDB:hover .mongoDB-tool-tip {
+  display: block;
+}
+.express {
+  color: #ffffff;
+  position: relative;
+}
+.express img{
+    /* margin-top: -8px; */
+    position: relative;
+    bottom: 12px;
+}
+.express-tool-tip{
+    top: -65px;
+    left: -10px;
+    background-color: white;
+    color: #000;
+    
+}
+.express:hover .express-tool-tip{
+    display: block;
+}
+.react {
+  color: #61dafb;
+  position: relative;
+}
+.react-tool-tip{
+    background-color: #61DAFB;
+    color: black;
+  
+    top: -50px;
+    left: -5px;
+
+}
+.react:hover .react-tool-tip{
+    display: block;
+
+}
+.node {
+  color: #8cc84b;
+  position: relative;
+}
+.node-tool-tip{
+    background-color: #8cc84b;
+    display: none;
+      
+    top: -50px;
+    left: -5px;
+    color: black;
+}
+.node:hover .node-tool-tip{
+    display: block;
+
 }
